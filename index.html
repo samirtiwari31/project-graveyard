@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Graveyard - Unfinished Projects Repository</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=JetBrains+Mono:wght@100..800&display=swap');
+      
+      body {
+        background-color: #0a0a0c;
+        color: #e2e8f0;
+        font-family: 'Crimson Pro', serif;
+        overflow-x: hidden;
+      }
+      
+      .mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+
+      .spooky-glow {
+        box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
+      }
+
+      .mist {
+        background: linear-gradient(180deg, rgba(10,10,12,0) 0%, rgba(139,92,246,0.05) 50%, rgba(10,10,12,0) 100%);
+        pointer-events: none;
+      }
+
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0c;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2d2d35;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4b4b5a;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
