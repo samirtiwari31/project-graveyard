@@ -1,0 +1,6 @@
+{
+  "name": "Project Graveyard",
+  "description": "A digital necropolis for abandoned code, half-written novels, and forgotten designs. Adopt the remains of lost inspiration and bring them back to life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
